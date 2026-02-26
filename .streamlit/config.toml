@@ -1,0 +1,9 @@
+[server]
+# For Heroku: PORT is set by the platform; pass via CLI in Procfile
+# For Streamlit Cloud: uses default 8501
+headless = true
+enableCORS = false
+enableXsrfProtection = true
+
+[browser]
+gatherUsageStats = false
